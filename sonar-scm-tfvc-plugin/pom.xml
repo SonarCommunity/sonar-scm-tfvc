@@ -28,7 +28,7 @@
   </issueManagement>
 
   <properties>
-    <sonar.buildVersion>7.5</sonar.buildVersion>
+    <sonar.buildVersion>9.4.0.54424</sonar.buildVersion>
     <sonar.pluginName>TFVC</sonar.pluginName>
     <sonar.pluginClass>org.sonar.plugins.scm.tfs.TfsPlugin</sonar.pluginClass>
     <sonar.pluginDisplayVersion>${project.version} (build ${buildVersion})</sonar.pluginDisplayVersion>
