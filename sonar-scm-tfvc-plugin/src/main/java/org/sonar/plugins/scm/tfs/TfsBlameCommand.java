@@ -49,6 +49,11 @@ public class TfsBlameCommand extends BlameCommand {
       logWarning("Missing configuration for CollectionUri. The project may not receive blame information.");
     }
 
+    logDebug("collection uri: %s", configuration.collectionUri());
+    logDebug("user name: %s", configuration.username());
+    logDebug("password length: %d", configuration.password() != null ? configuration.password().length() : 0);
+    logDebug("pat length: %s", configuration.pat() != null ? configuration.pat().length() : 0);
+
     this.configuration = configuration;
     this.executable = executable;
   }
